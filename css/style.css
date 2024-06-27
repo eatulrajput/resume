@@ -192,3 +192,44 @@ button:hover{
     filter: opacity(100%);
     cursor: pointer;
 }
+
+.experience{
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.256);
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+}
+
+.experience p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.8rem;
+}
+
+.experience h2{
+    font-weight: 500;
+}
+
+.experience .position{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.position-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.position-details{
+    width: 70%;
+}
+
+.date{
+    width: 30%;
+}
