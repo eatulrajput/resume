@@ -7,10 +7,6 @@ This repository contains the code for my personal **Resume Website**, built usin
 - [Features](#features)
 - [Live Demo](#live-demo)
 - [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 - **Interactive Resume**: Users can view my personal details, education, work experience, projects, and contact information in a sleek, organized layout.
@@ -25,9 +21,3 @@ Check out the live version of the resume here: [My Resume Website](#)
 - **HTML5**: For the structure of the website.
 - **CSS3**: For styling and responsive design.
 - **JavaScript** (optional): For interactive features, if any, such as smooth scrolling, animations, or dynamic content.
-
-## Setup and Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/yourusername/resume-website.git
