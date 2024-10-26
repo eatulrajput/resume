@@ -35,6 +35,7 @@ header {
     width: 60%;
     margin: 10px auto;
     margin-bottom: 200px;
+    max-height: 10vh;
 }
 
 
