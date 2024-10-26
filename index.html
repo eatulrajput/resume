@@ -12,15 +12,16 @@
 <body>
     <div class="container">
         <header id="header">
-            <div class="nav">
+            <nav class="nav" id="nav">
                 <a href="#header">Home</a>
                 <a href="#profile">Profile</a>
                 <a href="#experience">Experience</a>
                 <a href="#education">Education</a>
-                <a href="#skills">Skills</a>
+                <a href="#pro-skills">Skills</a>
                 <a href="#contact">Contact</a>
-            </div>
+            </nav>
         </header>
+
         <div class="hero">
             <p class="status">🟢 Available for work</p>
             <p class="name">Thomas Scott</p>
@@ -34,7 +35,7 @@
         <section id="profile">
             <div class="profile-container">
                 <div class="profile-picture">
-                    <img src="" alt="">
+                    <img src="">
                 </div>
                 <div class="summary">
                     <p class="profile-icon"><i class="fa-solid fa-user-tie"></i></p>
@@ -53,11 +54,11 @@
                 </div>
                 <hr class="division">
                 <div class="company">
-                    <img src="/assets/images/p2.svg" alt="">
-                    <img src="/assets/images/p3.svg" alt="">
-                    <img src="/assets/images/p4.svg" alt="">
-                    <img src="/assets/images/p5.svg" alt="">
-                    <img src="/assets/images/p6.svg" alt="">
+                    <img src="/assets/images/p2.svg" alt="Company Logo">
+                    <img src="/assets/images/p3.svg" alt="Company Logo">
+                    <img src="/assets/images/p4.svg" alt="Company Logo">
+                    <img src="/assets/images/p5.svg" alt="Company Logo">
+                    <img src="/assets/images/p6.svg" alt="Company Logo">
                 </div>
             </div>
         </section>
@@ -67,9 +68,9 @@
                 <p class="profile-icon"><i class="fa-solid fa-user-tie"></i></p>
                 <h2>Work Experience</h2>
                 <p class="sub-detail">Proven track record in data science and business consulting, delivering impactful
-                    insights and
-                    results across industries.</p>
+                    insights and results across industries.</p>
                 <hr class="division">
+                
                 <div class="position-section">
                     <div class="position-details">
                         <p class="position">Data Scientist & Business Consultant</p>
@@ -84,18 +85,19 @@
                     </div>
                 </div>
 
-                <div class="position-details">
-                    <p class="position">Data Analyst & Business Strategist</p>
-                    <p class="sub-detail">SwiftEdge &#x2022 Contract</p>
-                    <p class="sub-detail"><i class="fa-solid fa-location-dot"></i> Dallas, Texas, USA</p>
-                    <p>Skillfully combining data analysis proficiency with strategic business acumen, adeptly navigating
-                        complex datasets to inform strategic decision-making and drive organizational growth
-                        initiatives.</p>
+                <div class="position-section">
+                    <div class="position-details">
+                        <p class="position">Data Analyst & Business Strategist</p>
+                        <p class="sub-detail">SwiftEdge &#x2022 Contract</p>
+                        <p class="sub-detail"><i class="fa-solid fa-location-dot"></i> Dallas, Texas, USA</p>
+                        <p>Skillfully combining data analysis proficiency with strategic business acumen, adeptly navigating
+                            complex datasets to inform strategic decision-making and drive organizational growth
+                            initiatives.</p>
+                    </div>
+                    <div class="date">
+                        <p><i class="fa-solid fa-calendar-days"></i> Oct 2017 - May 2021</p>
+                    </div>
                 </div>
-                <div class="date">
-                    <p><i class="fa-solid fa-calendar-days"></i> Oct 2017 - May 2021</p>
-                </div>
-
 
                 <div class="position-section">
                     <div class="position-details">
@@ -117,87 +119,83 @@
                         <p class="sub-detail">ProActive &#x2022 Internship</p>
                         <p class="sub-detail"><i class="fa-solid fa-location-dot"></i> Newark, New Jersey, USA</p>
                         <p>Seamlessly integrating business consulting prowess with advanced analytics expertise,
-                            delivering
-                            tailored solutions and actionable insights to drive organizational success and enhance
-                            strategic
-                            decision-making processes.</p>
+                            delivering tailored solutions and actionable insights to drive organizational success and enhance
+                            strategic decision-making processes.</p>
                     </div>
                     <div class="date">
                         <p><i class="fa-solid fa-calendar-days"></i> Aug 2014 - Jan 2016</p>
                     </div>
                 </div>
             </div>
-    </div>
-    </section>
+        </section>
 
-    <!-- Education -->
-    <section id="education">
-        <div class="experience">
-            <p class="profile-icon"><i class="fa-solid fa-book-open-reader"></i></p>
-            <h2>Education</h2>
-            <p class="sub-detail">Degrees and certifications in the specialized fields of data science and business
-                analytics.</p>
-            <hr class="division">
-            <div class="position-section">
-                <div class="position-details">
-                    <p class="position">Princeton University</p>
-                    <p class="sub-detail">Master’s degree &#x2022 Data Science</p>
+        <!-- Education -->
+        <section id="education">
+            <div class="experience">
+                <p class="profile-icon"><i class="fa-solid fa-book-open-reader"></i></p>
+                <h2>Education</h2>
+                <p class="sub-detail">Degrees and certifications in the specialized fields of data science and business
+                    analytics.</p>
+                <hr class="division">
+                <div class="position-section">
+                    <div class="position-details">
+                        <p class="position">Princeton University</p>
+                        <p class="sub-detail">Master’s degree &#x2022 Data Science</p>
+                    </div>
+                    <div class="date">
+                        <p><i class="fa-solid fa-calendar-days"></i> Sep 2015 - Dec 2016</p>
+                    </div>
                 </div>
-                <div class="date">
-                    <p><i class="fa-solid fa-calendar-days"></i> Sep 2015 - Dec 2016</p>
+
+                <hr class="division">
+
+                <div class="position-section">
+                    <div class="position-details">
+                        <p class="position">Montclair State University</p>
+                        <p class="sub-detail">Bachelor’s degree &#x2022 Artificial Intelligence</p>
+                    </div>
+                    <div class="date">
+                        <p><i class="fa-solid fa-calendar-days"></i> Sep 2011 - May 2015</p>
+                    </div>
                 </div>
             </div>
+        </section>
 
-            <hr class="division">
+        <!-- License -->
+        <section id="license">
+            <div class="experience">
+                <p class="profile-icon"><i class="fa-regular fa-id-card"></i></p>
+                <h2>Licenses & Certifications</h2>
+                <p class="sub-detail">Professional accreditations and certifications demonstrating expertise and compliance
+                    with industry standards.</p>
+                <hr class="division">
+                <div class="license-section">
+                    <div class="license-details">
+                        <p class="position">Data Analysis & Visualization</p>
+                        <p class="sub-detail">NexusWorks &#x2022 Issued Jan 2024</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Show Credentials</a>
+                    </div>
+                    <div class="license-details">
+                        <p class="position">Data Analysis Professional</p>
+                        <p class="sub-detail">StellarWave &#x2022 Issued Nov 2023</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Show Credentials</a>
+                    </div>
+                    <div class="license-details">
+                        <p class="position">Data Analytics Mastery</p>
+                        <p class="sub-detail">BrightByte &#x2022 Issued Aug 2023</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Show Credentials</a>
+                    </div>
 
-            <div class="position-section">
-                <div class="position-details">
-                    <p class="position">Montclair State University</p>
-                    <p class="sub-detail">Bachelor’s degree &#x2022 Artificial Intelligence</p>
-                </div>
-                <div class="date">
-                    <p><i class="fa-solid fa-calendar-days"></i> Sep 2015 - Dec 2016</p>
+                    <div class="license-details">
+                        <p class="position">Advanced Machine Learning</p>
+                        <p class="sub-detail">DataHub &#x2022 Issued Jun 2023</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i> Show Credentials</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- License -->
-    <section id="experience">
-        <div class="experience">
-            <p class="profile-icon"><i class="fa-regular fa-id-card"></i></p>
-            <h2>Licenses & Certifications</h2>
-            <p class="sub-detail">Professional accreditations and certifications demonstrating expertise and compliance
-                with industry standards.</p>
-            <hr class="division">
-            <div class="license-section">
-                <div class="license-details">
-                    <p class="position">Data Analysis & Visualization</p>
-                    <p class="sub-detail">NexusWorks &#x2022 Issued Jan 2024</p>
-                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i> Show Credentials</a>
-                </div>
-                <div class="license-details">
-                    <p class="position">Data Analysis Professional</p>
-                    <p class="sub-detail">StellarWave &#x2022 Issued Nov 2023</p>
-                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i> Show Credentials</a>
-                </div>
-                <div class="license-details">
-                    <p class="position">Data Analytics Mastery</p>
-                    <p class="sub-detail">BrightByte &#x2022 Issued Aug 2023</p>
-                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i> Show Credentials</a>
-                </div>
-
-                <div class="license-details">
-                    <p class="position">Strategic Business Consulting</p>
-                    <p class="sub-detail">DataSpark &#x2022 Issued Feb 2023</p>
-                    <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i> Show Credentials</a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Professional skills -->
+         <!-- Professional skills -->
     <section id="skills">
         <div class="experience">
             <p class="profile-icon"><i class="fa-solid fa-list-check"></i></p>
